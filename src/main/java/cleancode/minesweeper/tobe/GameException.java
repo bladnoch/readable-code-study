@@ -11,8 +11,8 @@ package cleancode.minesweeper.tobe;
  * -----------------------------------------------------------
  * 2024. 9. 29.        doungukkim       최초 생성
  */
-public class AppException extends RuntimeException {
-    public AppException(String message) {
+public class GameException extends RuntimeException {
+    public GameException(String message) {
         super(message);
     }
 }
